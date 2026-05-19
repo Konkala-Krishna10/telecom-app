@@ -5,7 +5,6 @@ pipeline {
         AWS_REGION   = 'us-east-1'
         ECR_REGISTRY = '550651695287.dkr.ecr.us-east-1.amazonaws.com'
         ECR_REPO     = 'telecom-ap'
-        ECR_REPO     = 'telecom-app'
         IMAGE_TAG    = "v1.0.${BUILD_NUMBER}"
         NAMESPACE    = 'dev'
     }
